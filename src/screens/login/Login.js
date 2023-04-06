@@ -62,7 +62,6 @@ function Login() {
   return (
     <div className="login">
       <div className="login__container">
-      <img src={'/logo.png'} alt="Slack Logo" />
         <h4>Sign in to TeamChat</h4>
         <Button onClick={signIn}>
           {!loading ? 'Sign In With Google' : <div id="loading"></div>}
